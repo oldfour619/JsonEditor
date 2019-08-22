@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="" rel="stylesheet">
+<script type="text/javascript" src="json-editor.js"></script>
+<script type="text/javascript" src="inherit-element.js"></script>
+<script type="text/javascript">
+<!--
+window.onload = function () {
+	var editor = new jsonEditor(
+		"jsonEditorBox",
+		{
+			'str': 'hello world!',
+			'number':1,
+			'boolean': true,
+			'list': [1, 2],
+			'empty': [],
+			'object': {
+				'key1': null,
+				'key2': false,
+				'key3': ['xxx', 'yyy'],
+				'key4': function (){}
+			}
+		},
+		{
+			hotKey: 'J',
+			width: 680,
+			// height: 480
+		}
+	);
+	document.getElementById('exportValue').onclick = function () {
+		console.log(editor.value());
+	};
+	document.getElementById('exportText').onclick = function () {
+		console.log(editor.text());
+	};
+	//console.log(document.getElementById('jsonEditorBox').querySelector(':scope > UL'))
+};
+-->
+</script>
+<title>contentEditable - plaintext-only</title>
+</head>
+
+<body>
+<div id="jsonEditorBox"></div>
+<div style="margin-top:8px;">
+	<input id="exportValue" type="button" value="exportValue" style="width:100px;height:28px;"/>
+	<input id="exportText" type="button" value="exportText" style="width:100px;height:28px;"/>
+</div>
+</body>
+</html>
