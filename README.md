@@ -44,6 +44,7 @@ window.onload = function () {
 			height: 480
 		}
 	);
-  -->
-  </script>
-  ```
+}
+-->
+</script>
+```
