@@ -13,12 +13,12 @@ You can import values of any data type into the editor for editing, and you can 
 - IE >= 9
 
 # Use
-## import  "json-editor.js"
+### import  "json-editor.js"
 ```
 <script type="text/javascript" src="json-editor.js"></script>
 ```
 
-## instance  "jsonEditor"
+### instance  "jsonEditor"
 ```
 <script type="text/javascript">
 <!--
