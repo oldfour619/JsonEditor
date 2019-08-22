@@ -1,24 +1,24 @@
-#Introduction
+# Introduction
 一个使用快捷键进行操作的JSON编辑器，使用快捷键让编辑工作更加方便、快捷。
 可自由导入任何数据类型的值到编辑器中进行编辑，编辑后可导出对象或JSON字符串。
 
 A JSON editor that uses shortcut keys to make editing work easier and faster.
 You can import values of any data type into the editor for editing, and you can export objects or JSON strings after editing.
 
-#Be applicable
--Chrome
--Firefox
--Safari
--Opera
--IE >= 9
+# Be applicable
+- Chrome
+- Firefox
+- Safari
+- Opera
+- IE >= 9
 
-#Use
-##import  "json-editor.js"
+# Use
+## import  "json-editor.js"
 ```
 <script type="text/javascript" src="json-editor.js"></script>
 ```
 
-##instance  "jsonEditor"
+## instance  "jsonEditor"
 ```
 <script type="text/javascript">
 <!--
