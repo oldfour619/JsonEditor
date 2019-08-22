@@ -48,3 +48,6 @@ window.onload = function () {
 -->
 </script>
 ```
+
+**更详细的API接口说明和快捷键操作说明，请查看“doc/Manual.pdf”文件**
+**For more detailed API interface descriptions and shortcut key operation instructions, please see the "doc/Manual.pdf" file.**
